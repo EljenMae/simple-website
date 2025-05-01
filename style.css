@@ -104,6 +104,9 @@ section.homepage {
 .home-text .store-name {
     font-size: 5rem;
 }
+.home-text .store-smallDescription{
+    line-height: 1.6;
+}
 
 .button-orderNow {
 
@@ -164,11 +167,25 @@ section.homepage {
 }
 
 .about-content .barista-description{
-    text-align: right;
-    padding-left: 300px;
-    padding-top: 50px;  
+    text-align: center;
+    padding-top: 50px;
 }
-,about-content .barista-description .barista-title{
-    font-size: larger;
-    font-weight: bold;
+.about-content .barista-description .barista-title{
+    font-size: 2rem;
+    font-weight: 4rem;
+}
+.about-content .barista-description .store-description{
+    width: 45rem;
+    padding-top: 2rem;   
+    text-align: left;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.8;
+    
+}
+.feedbacks {
+    width: 100%;
+    height: 100vh;
+    background-color: #2e363d;
+    color: #e8e7da;
 }
