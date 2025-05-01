@@ -106,8 +106,9 @@ section.homepage {
 }
 
 .button-orderNow {
+
     padding-left: 5rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .store-image {
@@ -139,12 +140,35 @@ section.homepage {
     background-color: transparent;
     font-weight: bold;
 }
+.about-store .img-barista{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    gap: 20px;
+    justify-content: start;
+    padding: 30px;
+    padding-left: 70px;
+}
+.about-store .img-barista img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+/*Has error*/
+.about-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 70px;
+}
 
-.store-details {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+.about-content .barista-description{
+    text-align: right;
+    padding-left: 300px;
+    padding-top: 50px;  
+}
+,about-content .barista-description .barista-title{
+    font-size: larger;
+    font-weight: bold;
 }
